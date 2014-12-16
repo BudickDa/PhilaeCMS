@@ -1,0 +1,14 @@
+<template name="allPages">
+    <h1>All Pages:</h1>
+    {{page}}
+    {{#each pages}}
+        {{> page}}
+    {{/each}}
+</template>
+
+<template name="page">
+    <div class="list-group">
+        <span class="list-group-item">{{title}} <a class="badge" href="/backend/delete/page/{{_id}}">Delete</a><a
+                class="badge" href="/backend/page/{{_id}}">Edit</a></span>
+    </div>
+</template>

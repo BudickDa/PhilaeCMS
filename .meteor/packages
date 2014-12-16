@@ -1,0 +1,19 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+# Meteor packages
+meteor-platform
+accounts-password
+underscore
+jquery
+
+# Forrent packages
+iron:router
+sacha:spin
+mizzao:bootstrap-3
+
+# These should be deleted in production
+autopublish
+insecure
