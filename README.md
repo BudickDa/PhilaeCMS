@@ -1,6 +1,10 @@
 PhilaeCMS
 =========
 
+#Warning:
+I wrote this just for fun. 
+If you want a working CMS that fits nicely into your meteor-app, take a look at https://github.com/orionjs/orion
+
 #Installation
 If not already installed, install Meteor via:
 `curl https://install.meteor.com/ | sh`
